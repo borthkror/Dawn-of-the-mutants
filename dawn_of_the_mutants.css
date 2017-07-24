@@ -1,0 +1,30 @@
+html {
+  background: url("Images/apocalypse_background.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+div {
+  border: red solid 2.5px;
+}
+
+.player_main {
+  display: inline-block;
+  overflow: hidden;
+  float: left;
+  position: relative;
+  transition: top 0.1s;
+  transition: top 0.1s linear, left 0.1s linear;
+}
+
+.looks_right {
+  transform: scaleX(1);
+  border-color: blue;
+}
+
+.looks_left {
+  transform: scaleX(-1);
+  border-color: green;
+}
